@@ -1,0 +1,148 @@
+body{
+    background: linear-gradient(135deg, #0d0d0d 0%, #1a1a2e 100%);
+    background-attachment: fixed;
+}
+h1{
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+    font-size: 40px;
+    text-decoration: solid underline;
+}
+.grey_circle{
+    width: 410px;
+    height: 410px;
+    border:2px solid #333333;
+    background-color: #333333;
+    border-radius: 50%;
+    margin: 60px auto;
+    box-shadow: 0 0 30px grey;
+
+}
+.black_circle{
+    width: 380px;
+    height: 380px;
+    border:2px solid black;
+    background-color: black;
+    border-radius: 50%;
+    margin: 14px auto;
+    position: relative;
+}
+.dot {
+    position: absolute;
+    top: 184px;
+    left: 184px;
+    width: 13px;
+    height: 13px;
+    background: white;
+    border-radius: 50%;
+    z-index: 10;
+    box-shadow: 0 0 10px white;
+}
+
+@keyframes rotateHour {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+@keyframes rotateMinute {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+.hour {
+    width: 10px;
+    height: 70px;
+    background-color: white;
+    position: absolute;
+    top: 122px;
+    left: 185px;
+    border-radius: 10px;
+    transform-origin: bottom center; 
+    animation: rotateHour 20s linear infinite; 
+}
+
+.minute {
+    width: 8px;
+    height: 120px;
+    background-color: #7EFCFC;
+    position: absolute;
+    top: 70px;
+    left: 188px;
+    border-radius: 10px;
+    transform-origin: bottom center; 
+    animation: rotateMinute 10s linear infinite; 
+}
+
+.second{
+    width: 2px;
+    height: 150px;
+    background-color: red;
+    position: absolute;
+    top: 40px;
+    left: 189px;
+    border-radius: 10px;
+}
+
+.small_circle{
+    margin: auto;
+    width: 50px;
+    height: 50px;
+    color: white;
+    border: 2px solid black;
+    outline: none;
+    border: none;
+    border-radius: 50%;
+    position: absolute;
+    text-align: center;
+    font-size: 40px;
+}
+.box-12{
+    top: -29px;
+    left: 163px;
+}
+.box-11{
+    top: -6px;
+    left: 80px;
+}
+.box-10{
+    top: 43px;
+    left: 23px;
+}
+.box-9{
+    top: 112px;
+    left: 7px;
+}
+.box-8{
+    top: 190px;
+    left: 20px;
+}
+.box-7{
+    top: 250px;
+    left: 80px;
+}
+.box-6{
+    bottom: 50px;
+    left: 159px;
+}
+.box-5{
+    bottom: 70px;
+    right: 90px;
+}
+.box-4{
+    top: 200px;
+    right: 30px;
+}
+.box-3{
+    top: 127px;
+    right: 10px;
+}
+.box-2{
+    top: 50px;
+    right: 25px;
+}
+.box-1{
+    top: -8px;
+    right: 83px;
+}
+
