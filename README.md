@@ -1,33 +1,33 @@
-# ⏰ Analog Clock
+#  Analog Clock
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![No-JS](https://img.shields.io/badge/Pure_CSS-Only-blueviolet?style=for-the-badge)
 ![Static](https://img.shields.io/badge/Static_Website-FF6B35?style=for-the-badge)
 
-## 📋 Project Overview
+## Project Overview
 
 A visually appealing analog clock interface built with pure HTML and CSS. This project demonstrates advanced CSS techniques including animations, transforms, and precise positioning to create a functional clock visualization without JavaScript.
 
-## ✨ Features
+## Features
 
-### 🎨 Visual Design
+### Visual Design
 - **Dark Modern Theme**: Gradient background with black clock face
 - **Responsive Centering**: Clock perfectly centered on all screen sizes
 - **Realistic Shadows**: Subtle box shadows for depth and dimension
 - **Color-coded Hands**: White (hour), Cyan (minute), Red (second)
 
-### 🔄 Animation System
+### Animation System
 - **Smooth CSS Animations**: Hour and minute hands with continuous rotation
 - **Transform Origin Control**: Precise rotation from bottom center
 - **Independent Timing**: Different rotation speeds for each hand
 
-### 📐 Layout & Positioning
+### Layout & Positioning
 - **Absolute Positioning**: Precise placement of all clock elements
 - **Circular Number Layout**: Numbers 1-12 positioned in perfect circle
 - **Z-index Management**: Proper layering of clock components
 
-## 🏗️ Project Structure
+## Project Structure
 
 ```
 ANALOG CLOCK/
@@ -35,7 +35,7 @@ ANALOG CLOCK/
 └── style.css          # All styling and animations
 ```
 
-### 📁 File Breakdown
+### File Breakdown
 
 **index.html**
 - Semantic HTML5 structure
@@ -52,7 +52,7 @@ ANALOG CLOCK/
 - Center dot styling
 - Animation keyframes
 
-## 🛠️ Technical Implementation
+## Technical Implementation
 
 ### Core Components
 
@@ -85,7 +85,7 @@ ANALOG CLOCK/
    - Highest z-index (10)
    - Perfectly centered
 
-### 🎯 CSS Positioning System
+### CSS Positioning System
 
 Each number uses absolute positioning with custom coordinates:
 - **box-12**: top: -29px, left: 163px
@@ -93,7 +93,7 @@ Each number uses absolute positioning with custom coordinates:
 - **box-6**: bottom: 50px, left: 159px
 - etc. for all 12 positions
 
-### 🔄 Animation Framework
+### Animation Framework
 
 ```css
 @keyframes rotateHour {
@@ -107,7 +107,7 @@ Each number uses absolute positioning with custom coordinates:
 }
 ```
 
-## 💻 Technical Stack
+## Technical Stack
 
 ### Languages & Standards
 - **HTML5**: Markup structure
@@ -123,14 +123,14 @@ Each number uses absolute positioning with custom coordinates:
 - `z-index` for layering
 - `calc()` and viewport units
 
-## 🚀 Installation & Setup
+## Installation & Setup
 
 ### Method 1: Direct File Access
 1. Download both files:
    ```bash
-   📁 analog-clock/
-     ├── 📄 index.html
-     └── 📄 style.css
+   analog-clock/
+     ├── index.html
+     └── style.css
    ```
 2. Open `index.html` in any modern browser
 
@@ -147,7 +147,7 @@ php -S localhost:8000
 ```
 Then visit: `http://localhost:8000`
 
-## 📖 Usage Instructions
+## Usage Instructions
 
 ### Viewing the Clock
 1. Open `index.html` in a web browser
@@ -162,7 +162,7 @@ Then visit: `http://localhost:8000`
 - Numbers are positioned mathematically around the circle
 - Hands rotate from their base (transform-origin: bottom center)
 
-## 🔧 Development Setup
+## Development Setup
 
 ### Prerequisites
 - Modern web browser (Chrome 90+, Firefox 88+, Safari 14+)
@@ -187,7 +187,7 @@ Then visit: `http://localhost:8000`
 2. Refresh the browser
 3. Clock updates immediately (no build process needed)
 
-## 🎨 Customization Guide
+## Customization Guide
 
 ### Changing Colors
 ```css
@@ -234,19 +234,19 @@ body {
 }
 ```
 
-## 📊 Browser Compatibility
+## Browser Compatibility
 
 | Browser | Version | Status |
 |---------|---------|--------|
-| Chrome  | 90+     | ✅ Fully Supported |
-| Firefox | 88+     | ✅ Fully Supported |
-| Safari  | 14+     | ✅ Fully Supported |
-| Edge    | 90+     | ✅ Fully Supported |
-| Opera   | 76+     | ✅ Fully Supported |
+| Chrome  | 90+     | Fully Supported |
+| Firefox | 88+     | Fully Supported |
+| Safari  | 14+     | Fully Supported |
+| Edge    | 90+     | Fully Supported |
+| Opera   | 76+     | Fully Supported |
 
 **Note**: CSS animations and transforms are well-supported in all modern browsers.
 
-## 🤝 Contributing
+## Contributing
 
 ### How to Contribute
 1. Fork the repository
@@ -263,7 +263,7 @@ body {
 - Add clock settings panel
 - Implement different clock styles
 
-## 📝 License
+## License
 
 This project is licensed under the **MIT License** - see the LICENSE file for details.
 
@@ -283,7 +283,7 @@ The above copyright notice and this permission notice shall be included in all
 copies or substantial portions of the Software.
 ```
 
-## 📞 Contact & Support
+## Contact & Support
 
 **Project Maintainer**: Muhammad Affan  
 **Email**: maffan2830@gmail.com  
@@ -294,7 +294,7 @@ copies or substantial portions of the Software.
 - **Documentation**: Refer to this README
 - **Community**: Share your modifications and improvements
 
-## 🌟 Showcase
+## Showcase
 
 ### What Makes This Project Special
 1. **Zero JavaScript**: Pure CSS implementation
